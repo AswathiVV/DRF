@@ -21,4 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.sample_fun),
     path('fun1',views.fun1),
+    path('fun2/<id>',views.fun2),
+    path('fun3',views.fun3),
+
+
 ]
